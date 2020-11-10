@@ -1,0 +1,10 @@
+{
+  "name": "sap-connect",
+  "provider": "Librestream Inc",
+  "description": "Integration with Librestream Onsight Connect.",
+  "version": "0.0.1",
+  "icon": "https://en.wikipedia.org/wiki/File:User_Circle.png",
+  "useShellSDK": true,
+  "parameters": [],
+  "outletPositions": []
+}
