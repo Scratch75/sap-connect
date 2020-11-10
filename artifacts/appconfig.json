@@ -1,10 +1,12 @@
 {
   "name": "sap-connect",
-  "provider": "Librestream Inc",
-  "description": "Integration with Librestream Onsight Connect.",
+  "provider": "Librestream",
+  "description": "Librestream Connect",
   "version": "0.0.1",
   "icon": "https://en.wikipedia.org/wiki/File:User_Circle.png",
   "useShellSDK": true,
+  "dockerRegistry": "docker.io/Scratch75",
+  "helmChartVersion": "3.4.0",
   "parameters": [],
   "outletPositions": []
 }

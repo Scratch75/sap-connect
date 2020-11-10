@@ -4,8 +4,8 @@
 replicaCount: 1
 
 image:
-  registry: ${registry}
-  name: ${image_name}
+  registry: docker.io/Scratch75
+  name: sap-connect
   pullPolicy: Always
 
 imagePullSecrets: []

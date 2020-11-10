@@ -1,5 +1,5 @@
 apiVersion: v1
-name: ${application_name}
+name: sap-connect
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -13,13 +13,13 @@ type: application
 
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
-version: ${helm_chart_version}
+version: 3.4.0
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application.
-appVersion: "${application_version}"
+appVersion: "0.0.1"
 
-description: ${application_description}
+description: Librestream Connect
 
 # A URL to an SVG or PNG image to be used as an icon
-icon: ${application_icon}
+icon: https://en.wikipedia.org/wiki/File:User_Circle.png
